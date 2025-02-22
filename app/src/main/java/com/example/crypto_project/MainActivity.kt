@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
                 filterData.add(item)
                 }
                  if (filterData.isEmpty()){
-                  Toast.makeText(this@MainActivity, "No data available", Toast.LENGTH_SHORT).show()
+//                  Toast.makeText(this@MainActivity, "No data available", Toast.LENGTH_SHORT).show()
 
                 }else{
                     rvAdapter.changeData(filterData)

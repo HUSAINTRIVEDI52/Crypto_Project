@@ -16,25 +16,32 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:background="@color/Black_1"
-        app:circularflow_radiusInDP="20dp"
         android:focusedByDefault="false"
         android:hint="Search"
 
         android:textColorHint="@color/white"
+
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:circularflow_radiusInDP="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/search"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
+            android:background="@color/Black_1"
             android:ems="20"
-            android:focusedByDefault="false"
+            app:cardCornerRadius="20dp"
 
-            android:id="@+id/search"
+
+            android:focusedByDefault="false"
             android:shadowRadius="20"
-            android:background="@color/Black_1" />
+            android:textColor="@color/white" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
